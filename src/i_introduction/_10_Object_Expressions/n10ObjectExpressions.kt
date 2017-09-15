@@ -22,8 +22,8 @@ fun task10(): List<Int> {
         override fun compare(o1: Int, o2: Int): Int {
             return o2 - o1
         }
-
     }
+
     Collections.sort(arrayList, comparator)
     return arrayList
 }
